@@ -1,0 +1,38 @@
+.header{
+    min-height: 7vh;
+    box-shadow: 2px 2px 2px rgb(168, 167, 167) ;
+    border-bottom: 0.1px solid rgb(207, 207, 207);
+}
+.main-container{
+    min-height: 91vh;
+    background: #f7fafc;
+}
+.main-form-container{
+    border: 0.3px solid rgb(211, 211, 211);
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px rgb(211, 211, 211);
+    background-color: white !important;
+    width: 50%;    
+}
+.primary-button{
+    margin-right: 15px !important;
+}
+.label{
+    font-weight: 300;
+}
+@media  screen and (max-width: 998px) {
+    .main-form-container{
+        width: 75%;
+    }
+}
+@media  screen and (max-width: 768px) {
+    .main-form-container{
+        width: 90%;
+    }
+}
+
+@media  screen and (max-width: 502px) {
+    .main-form-container{
+        width: 85%;
+    }
+}

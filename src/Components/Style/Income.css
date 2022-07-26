@@ -1,0 +1,45 @@
+.income{
+    border: 0.8px solid green;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px rgb(206, 206, 206);
+    width: 170px;
+    color: rgb(75, 75, 75);
+    transition: all .4s ease-out
+}
+.income:hover{
+    background-color: green;    
+    color: white;
+}
+.expense{
+    border: 0.3px solid red;
+    border-radius: 10px;
+    width: 170px;
+    color: rgb(75, 75, 75);
+    box-shadow: 1px 2px 2px rgb(206, 206, 206);
+    transition: all .4s ease-out
+
+}
+.expense:hover{
+    background-color: rgb(235, 25, 25);
+    color: white;
+}
+.link{
+    text-decoration: none;
+}
+.button-container{
+    width: 370px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tracker{
+    background: #f7fafc;
+    min-height: 100vh;
+}
+.bordered-tracker{
+    padding: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 10px;
+    background: white;
+    box-shadow: 1px 1px 1px 1px rgb(206, 206, 206); 
+}

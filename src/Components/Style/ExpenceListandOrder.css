@@ -1,0 +1,23 @@
+.list-container{
+    width: 500px;
+}
+.list-elements{
+    list-style: none;
+    padding-left: 20px;
+    text-decoration: none;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    margin: 5px 7.8px;
+    font-weight: 300;
+    transition: all .4s ease-in;
+    box-shadow: 1px 1px 1px rgb(180, 179, 179);
+
+}  
+.list-elements:hover
+{
+    background-color:whitesmoke;
+    transform: scale(1.03);
+}
+.h3-header{
+    margin-left: 37px;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.full-screen{
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing{
+    animation: lading-page 1s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    /* animation: lading-page 1s cubic-bezier(0.075, 0.82, 0.165, 1); */
+    animation-delay: 1s;
+
+ }
+ @keyframes lading-page {
+     0%{
+         transform: translateY(0);
+     }
+     100%{
+         transform: translateY(-100%);
+     }
+ }

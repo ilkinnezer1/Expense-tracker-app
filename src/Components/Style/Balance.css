@@ -1,0 +1,21 @@
+.balance-card{
+    border: 0.3px solid rgb(8, 8, 136);
+    border-radius: 20px;
+    width: 85mm;
+    height: 55mm;
+    /* background:linear-gradient(to right, rgb(248, 202, 116), rgb(250, 175, 36)); */
+    box-shadow: 1px 1px 1px rgb(180, 179, 179);
+    margin-left: 6.8rem;
+    background: linear-gradient(to right, rgb(4, 4, 54), rgba(40, 37, 245, 0.801) ) 
+}
+.text{
+    text-align: left;
+    margin-top: 0 !important;
+}
+.visa-logo{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: 900;
+}
